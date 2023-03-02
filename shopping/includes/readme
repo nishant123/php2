@@ -1,0 +1,2 @@
+include('includes/prefix.php');
+$sql_p="SELECT * FROM ".PREFIX."products WHERE id={$id}";

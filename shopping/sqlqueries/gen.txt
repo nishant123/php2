@@ -1,0 +1,5 @@
+for products
+
+SELECT * FROM `shop_products` where DATE(`postingDate`)=CURRENT_DATE
+
+then export the result into csv 
